@@ -7,7 +7,7 @@ body{
 }
 /* Estilos del Header */
 .header {
-    background-color: #000;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
     color: #fff;
     padding: 1rem;
   }
@@ -49,6 +49,7 @@ body{
     color: #ccc;
   }
   
+  
   /* Estilos del Main */
   .main {
     background-color: #f0f0f0;
@@ -79,7 +80,7 @@ body{
   
   .btn {
     display: inline-block;
-    background-color: #4CAF50;
+    background-color: #1e82ed;
     color: #fff;
     text-decoration: none;
     padding: 1rem 2rem;
@@ -88,7 +89,7 @@ body{
   }
   
   .btn:hover {
-    background-color: #3e8e41;
+    background-color: #00fadd;
   }
   
   .about,
@@ -146,5 +147,51 @@ body{
   .project-card .btn {
     display: block;
     margin: 1rem;
+  }
+  
+  .skills-section {
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    padding: 4rem 1rem;
+  }
+  
+  .skills-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .skills-content h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .skill-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .skill-item h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-item p {
+    font-size: 1.2rem;
+    color: #ccc;
   }
   
