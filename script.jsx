@@ -3,7 +3,7 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <div className="logo">
-          <a href="#">Mi Portafolio</a>
+          <a href="#">Juan Sanchez</a>
         </div>
         <nav className="nav-menu">
           <ul>
@@ -16,6 +16,8 @@ const Header = () => {
     </header>
   );
 };
+
+
 
 const Main = () => {
   return (
@@ -82,7 +84,9 @@ const SkillsSection = () => {
   };
 
 
+
 ReactDOM.render(<Header/>, document.getElementById('header'));
 ReactDOM.render(<SkillsSection/>, document.getElementById('skillsSection'));
-ReactDOM.render(<Main/>, document.getElementById('main1'));
+ReactDOM.render(<Main/>, document.getElementById('main'));
+
 
